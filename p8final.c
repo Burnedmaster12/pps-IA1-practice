@@ -13,7 +13,6 @@ int get_n()
     scanf("%d", &n);
     return n;
 }
-
 complex input_complex(){
     complex c;
     printf("Enter the real part : ");
@@ -22,22 +21,18 @@ complex input_complex(){
     scanf("%f", &c.i);
     return c;
 }
-
 complex add(complex a, complex b){
     complex sum;
     sum.real = a.real + b.real;
     sum.i = a.i + b.i;
     return sum;
 }
-
-
 void input_n_complex(int n, complex c[n]){
   for(int i=0; i<n; i++)
   {
     c[i] = input_complex();
   }
 }
-
 complex add_n_complex(int n, complex c[n]){
     complex sum;
     sum.real = 0;
@@ -47,8 +42,6 @@ complex add_n_complex(int n, complex c[n]){
     }
     return sum;
 }
-
-
 void output(int n, complex c[n], complex result){
     if(n==1)
     {
@@ -64,7 +57,6 @@ void output(int n, complex c[n], complex result){
         printf(" (%0.1f + %0.1fi) is %0.1f + %0.1fi\n", c[n-1].real, c[n-1].i, result.real, result.i);
     }
 }
-
 int main(){
     int n = get_n();
     complex c[n],sum;
