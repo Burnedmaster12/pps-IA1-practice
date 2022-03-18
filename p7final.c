@@ -26,8 +26,6 @@ Complex add(Complex a, Complex b)
 void output(Complex a, Complex b, Complex c){
     printf("The sum of (%0.1f + %0.1f i) and (%0.1f + %0.1f i) is %0.1f + %0.1f i \n ", a.real, a.imaginary, b.real, b.imaginary, c.real, c.imaginary);
 }
-
-
 int main()
 {
     Complex n1, n2, nsum;
