@@ -5,13 +5,13 @@ int input(int*a , int*b)
   scanf("%d""%d",a,b);
   return 0;
 }
-int add(int a, int b, int*s)
+int add(int a, int b, int*sum)
 {
   *s=a+b;
 }
-int output(int a, int b, int c)
+int output(int a, int b, int sum)
 {
-  printf("the sum of %d + %d is %d",a,b,c);
+  printf("the sum of %d + %d is %d",a,b,sum);
 }
 int main()
 {
