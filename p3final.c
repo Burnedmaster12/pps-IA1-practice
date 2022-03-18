@@ -1,12 +1,12 @@
 #include<stdio.h>
-int input()
+int input_n()
 {
   int x;
   printf("enter the value\n");
   scanf("%d",&x);
   return x;
 }
-int sum(int n)
+int sum_n(int n)
 {
   int i, sum=0;
   for(i=1;i<=n;i++)
@@ -22,8 +22,8 @@ void output(int n, int sum)
 int main()
 {
   int s,i;
-  s=input();
-  i=sum(s);
+  s=input_n();
+  i=sum_n(s);
   output(s,i);
   return 0;
 }
