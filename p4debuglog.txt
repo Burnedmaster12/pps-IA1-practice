@@ -22,7 +22,7 @@ warning: Error disabling address space randomization: Operation not permitted
 Breakpoint 1, main () at p4final.c:38
 38  {
 (gdb) s
-40  n = inputsize();
+40  n = input_array_size();
 (gdb) s
 inputsize () at p4final.c:3
 3   {
@@ -76,7 +76,7 @@ Enter the elements:
 17  }
 (gdb) n
 main () at p4final.c:43
-43  sum= arraysum(n,a);
+43  sum= sum_n_arrays(n,a);
 (gdb) s
 arraysum (n=5, a=0x7ffff9603630) at p4final.c:21
 21    int i, sum=0;
@@ -151,8 +151,8 @@ Continuing.
 The history is empty.
 (gdb) l
 41  int a[n];
-42  input(n,a);
-43  sum= arraysum(n,a);
+42  input_array_size(n,a);
+43  sum= sum_n_arrays(n,a);
 44  output(n,a,sum);
 45  return 0;
 46  }(gdb) 
