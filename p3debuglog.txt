@@ -20,7 +20,7 @@ Starting program: /home/runner/pps-IA1-practice-3/a.out
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p3original.c:25
-25    s=input();
+25    s=input_n();
 (gdb) s
 input () at p3original.c:3
 3   {
@@ -36,7 +36,7 @@ enter the value
 8   }
 (gdb) n
 main () at p3original.c:26
-26    i=sum(s);
+26    i=sum_n(s);
 (gdb) s
 sum (n=5) at p3original.c:11
 11    int i, sum=0;
@@ -85,8 +85,8 @@ sum of 5 numbers is 15[Inferior 1 (process 107) exited normally]
 The history is empty.
 (gdb) l
 24    int s,i;
-25    s=input();
-26    i=sum(s);
+25    s=input_n();
+26    i=sum_n(s);
 27    output(s,i);
 28    return 0;
 29  }(gdb)
