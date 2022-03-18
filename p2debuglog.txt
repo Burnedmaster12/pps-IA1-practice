@@ -102,4 +102,4 @@ The history is empty.
 30
 31  }(gdb) continue
 Continuing.
-the greates of 5 6 7 is 7[Inferior 1 (process 1186) exited normally]
+the greates of 5 6 7 is 7[Inferior 1 (process 1186) exited normally].
