@@ -97,4 +97,4 @@ The history is empty.
 62    ans=cmp(a,b);
 63    output(a,b,ans);
 64    return 0;
-65  }(gdb)
+65  }(gdb).
