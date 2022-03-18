@@ -103,4 +103,4 @@ The history is empty.
 31    sqroot=root(n);
 32    output(n,sqroot);
 33    return 0;
-34  }(gdb)
+34  }(gdb).
