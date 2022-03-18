@@ -23,7 +23,7 @@ int cmp(char *a,char *b)
     }else
     {
       i++;
-  }
+    }
 }
 if(a[i]=='\0')
 {
