@@ -15,9 +15,9 @@ int compare(int a, int b, int c)
   else 
   return c;
 }
-int print(int a, int b, int c, int l)
+int print(int a, int b, int c, int largest)
 {
-  printf("the greates of %d %d %d is %d",a,b,c,l);
+  printf("the greates of %d %d %d is %d",a,b,c,largest);
 }
 int main()
 {
