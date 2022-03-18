@@ -1,12 +1,12 @@
 #include<stdio.h>
-int inputsize()
+int input_array_size()
 {
   int n;
   printf("Enter array size: \n");
   scanf("%d",&n);
   return n;
 }
-void input(int n, int a[n])
+void input_array(int n, int a[n])
 {
   int i;
   printf("Enter the elements: \n");
@@ -16,7 +16,7 @@ void input(int n, int a[n])
 }
 }
 
-int arraysum(int n, int a[n])
+int sum_n_arrays(int n, int a[n])
 {
   int i, sum=0;
   for(i=0; i<n; i++)
@@ -37,10 +37,10 @@ void output(int n, int a[n], int sum)
 int main()
 {
 int n,sum;
-n = inputsize();
+n = input_array_size();
 int a[n];
-input(n,a);
-sum= arraysum(n,a);
+input_array (n,a);
+sum= sum_n_arrays(n,a);
 output(n,a,sum);
 return 0;
 }
