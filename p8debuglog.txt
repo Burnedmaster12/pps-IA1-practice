@@ -116,6 +116,6 @@ Continuing.
 (gdb) s
 The program is not being run.
 (gdb) p
-The history is empty.
+The history is empty
 (gdb) l
 339 in ../csu/libc-start.c
