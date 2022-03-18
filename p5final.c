@@ -16,7 +16,6 @@ float root(float n)
   {
     guess=(guess+next)/2;
     next=n/guess;
-  
   }
   return next;
 }
